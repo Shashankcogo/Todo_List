@@ -1,0 +1,51 @@
+.app {
+    background: #209cee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .cross{
+    text-decoration: line-through;
+  }
+  .long{
+    height: 21px;
+    width: 21px;
+  }
+  #h1-tag{
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+  }
+  #sppan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #inp{
+    display: inline-block;
+    width: 350px;
+  }
+
+  .todo-list {
+    background: #e8e8e8;
+    border-radius: 4px;
+    width: 400px;
+    padding: 5px;
+
+  }
+
+  .todo {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin: 6px;
+    padding: 6px;
+    width: 300px;
+    height: auto;
+  }
